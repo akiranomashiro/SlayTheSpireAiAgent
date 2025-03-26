@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">AI Agent</string>
+
+    <!-- 角色选项 -->
+    <string-array name="characters_array">
+        <item>铁甲战士</item>
+        <item>静默猎手</item>
+        <item>故障机器人</item>
+        <item>观者</item>
+    </string-array>
+
+    <!-- 难度选项 -->
+    <string-array name="difficulty_array">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+
+    <!-- 结束操作选项 -->
+    <string-array name="end_action_array">
+        <item>重新开始</item>
+        <item>退出游戏</item>
+    </string-array>
+
+</resources>

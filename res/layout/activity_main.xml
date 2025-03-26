@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- TextureView 作为底层，覆盖整个屏幕 -->
+    <TextureView
+        android:id="@+id/textureView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <!-- 标题 -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Slay the Spire AI Agent"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="32dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true" />
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:src="@drawable/icon"
+        android:scaleType="fitCenter"
+        android:layout_marginBottom="32dp"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true" />
+
+    <!-- 开始游戏按钮 -->
+    <Button
+        android:id="@+id/btnStartGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:text="开始游戏"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_margin="8dp"
+        android:layout_below="@id/logo"
+        android:layout_centerHorizontal="true" />
+
+    <!-- 设置按钮 -->
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:text="设置"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:drawableStart="@drawable/settings"
+        android:layout_margin="8dp"
+        android:layout_below="@id/btnStartGame"
+        android:layout_centerHorizontal="true" />
+
+    <!-- 帮助按钮 -->
+    <Button
+        android:id="@+id/btnHelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:text="帮助"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:drawableStart="@drawable/help"
+        android:layout_margin="8dp"
+        android:layout_below="@id/btnSettings"
+        android:layout_centerHorizontal="true" />
+
+    <!-- 日志按钮 -->
+    <Button
+        android:id="@+id/btnLog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:text="日志"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:drawableStart="@drawable/log"
+        android:layout_margin="8dp"
+        android:layout_below="@id/btnHelp"
+        android:layout_centerHorizontal="true" />
+
+    <!-- 关于按钮 -->
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:text="关于"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:drawableStart="@drawable/about"
+        android:layout_margin="8dp"
+        android:layout_below="@id/btnLog"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
